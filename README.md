@@ -8,10 +8,10 @@ It is more secure than DES and uses public-key cryptography.
 AES uses 128bit,192bit,256bit keys for encryption.
 
 Number of rounds of encryption/decryption in AES depends on key size as follows:-
-      KEY size    Rounds
-      128           10
-      192           12
-      256           14
+      KEY size  -  Rounds,
+      128       -   10,
+      192       -   12,
+      256       -   14,
 
 The key is passed through Key-expansion algorithm to generate more words. A word in AES is a column of key-matrix
 
